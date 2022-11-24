@@ -1,0 +1,1 @@
+// Este es un Script de JavaScript

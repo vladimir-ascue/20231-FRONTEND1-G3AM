@@ -1,0 +1,9 @@
+p {
+    color: blue;
+    background-color: rgb(75, 155, 155);
+    border: 1px solid rgb(175, 126, 126);
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
