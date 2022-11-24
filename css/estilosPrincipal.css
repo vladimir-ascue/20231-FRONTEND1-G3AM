@@ -1,5 +1,14 @@
 /* Reglas de estilo */
 
+
+/* Tarea para el lunes 28:
+
+Crear una regla de estilo para que el parrafo verde del header tenga un color de fondo aqua
+El color de la letra debe ser Marron
+Los bordes del parrafo deben ser redondeados en 15px y de un grosor de 2px
+
+*/
+
 nav {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: chocolate;
