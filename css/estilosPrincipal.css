@@ -5,6 +5,16 @@ nav {
     color: chocolate;
 }
 
+nav div a {
+    border: solid 1px blue;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background-color: darkcyan;
+    border-radius: 20px;
+}
+
 header {
     color: darkblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
