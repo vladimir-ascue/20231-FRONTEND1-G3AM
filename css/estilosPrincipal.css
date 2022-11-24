@@ -1,21 +1,45 @@
-p {
-    color: rgb(246, 255, 0);
+/* Reglas de estilo */
+
+nav {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: chocolate;
+}
+
+header {
+    color: darkblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section {
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+section div {
+    margin: 30px;
+    /* Margen exterior*/
+    background-color: red;
+    width: 350px;
+    /* Ancho */
+    padding: 10px;
+    /* Margen interior */
+    border: 1px solid blue;
+    /* Margen interior */
+}
+
+section div p {
+    color: black;
+}
+
+footer {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header p {
+    /* Propiedades de estilo*/
     background-color: rgb(24, 69, 9);
     border: 1px solid rgb(36, 0, 243);
     margin: 30px;
     padding: 10px;
-}
-
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-}
-
-div {
-    margin: 30px;
-    /* Margen exterior */
-    background-color: red;
-    width: 350px;
-    padding: 10px;
-    border: 1px solid blue;
-    /* Margen interior */
 }
