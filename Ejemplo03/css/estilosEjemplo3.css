@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+}
+
+.encabezado {
+    /* Regla de estilo que se aplicara a los elementos que tengan la clase encabezado */
+    margin: 0 auto;
+    /* Margen Exterior */
+    background-color: darkblue;
+    padding: 10px;
+    /* Margen Interior */
+    text-align: right;
+    /* Alineacion del texto */
+    border: 3px solid white;
+    /* Propiedades del borde : grosor, tipo, color */
+}
+
+.menu h1 {
+    /* Regla de estilo que se aplicara a los elementos que estan dentro del elmento que tiene la clase menu */
+    color: white;
+    text-align: center;
+}
+
+.enlaces {
+    /* Flexbox */
+    color: white;
+    display: flex;
+    gap: 20px;
+}
+
+.enlaces li {
+    list-style: none;
+}
