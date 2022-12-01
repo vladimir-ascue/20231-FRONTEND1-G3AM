@@ -63,4 +63,9 @@ header p {
     padding: 10px;
 }
 
-.contenido {}
+.contenido {
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 90%;
+    height: 520px;
+}

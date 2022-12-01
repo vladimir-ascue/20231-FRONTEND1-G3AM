@@ -31,3 +31,14 @@
 .enlaces li {
     list-style: none;
 }
+
+.contenido {
+    border: 1px solid black;
+    border-radius: 50px 30px 15px 5px;
+    background-color: antiquewhite;
+    width: 90%;
+    height: 520px;
+    margin-left: 5%;
+    padding: 10px;
+    color: blue;
+}
