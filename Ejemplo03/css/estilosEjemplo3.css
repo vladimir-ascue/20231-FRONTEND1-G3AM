@@ -6,7 +6,7 @@
     /* Regla de estilo que se aplicara a los elementos que tengan la clase encabezado */
     margin: 0 auto;
     /* Margen Exterior */
-    background-color: darkblue;
+    background-color: rgb(182, 186, 247);
     padding: 10px;
     /* Margen Interior */
     text-align: right;
@@ -28,17 +28,61 @@
     gap: 20px;
 }
 
-.enlaces li {
+
+/* .enlaces li {
     list-style: none;
+}*/
+
+.menuItem {
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menuItem a div {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+}
+
+
+/* Psudoclases : hover> cuando el cursor esta encima */
+
+.menuItem a div:hover {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(218, 215, 215);
+    border-radius: 20px;
+    box-shadow: 2px 2px 6px black;
 }
 
 .contenido {
+    /* borde de el elemento: grosor tipo color */
     border: 1px solid black;
-    border-radius: 50px 30px 15px 5px;
-    background-color: antiquewhite;
+    /* curvatura del cada esquina : ESI ESD EID EII | uno para todos */
+    /* border-radius: 50px 30px 15px 5px; */
+    border-radius: 25px;
+    /* Color de fondo*/
+    /* background-color: antiquewhite;*/
+    /* Ancho */
     width: 90%;
+    /* Alto */
     height: 520px;
+    /* Margen exterior  */
     margin-left: 5%;
-    padding: 10px;
+    /* margin-top: 5px;
+    margin-bottom: 15px;
+    margin-right: 5%; */
+    /* Margen interior */
     color: blue;
+    /* Fondo con degradado de colores */
+    /*background: linear-gradient(-15deg, #FFFFFF, #581edf, #ade90a, #ABC000);*/
+    /* background: linear-gradient(to left, #000000, #FFFFFF, #999999); */
+    background: linear-gradient(to top, transparent, #666666, #ade90a, #ABC000);
+    box-shadow: 5px 5px 15px black;
 }
