@@ -62,6 +62,7 @@
 }
 
 .contenido {
+    margin-top: 15px;
     /* borde de el elemento: grosor tipo color */
     border: 1px solid black;
     /* curvatura del cada esquina : ESI ESD EID EII | uno para todos */
@@ -74,7 +75,7 @@
     /* Alto */
     height: 520px;
     /* Margen exterior  */
-    margin-left: 5%;
+    margin-left: 4%;
     /* margin-top: 5px;
     margin-bottom: 15px;
     margin-right: 5%; */
@@ -83,6 +84,7 @@
     /* Fondo con degradado de colores */
     /*background: linear-gradient(-15deg, #FFFFFF, #581edf, #ade90a, #ABC000);*/
     /* background: linear-gradient(to left, #000000, #FFFFFF, #999999); */
-    background: linear-gradient(to top, transparent, #666666, #ade90a, #ABC000);
+    /*background: linear-gradient(to top, transparent, #666666, #ade90a, #ABC000);*/
     box-shadow: 5px 5px 15px black;
+    padding: 0.5%;
 }

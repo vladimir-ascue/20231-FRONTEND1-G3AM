@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilosEjemplo3.css">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <header class="encabezado">
+        <nav class="menu">
+            <h1>Titulo</h1>
+            <ul class="enlaces">
+                <!-- Unorder List | ul -->
+                <li class="menuItem">
+                    <a href="./index.html">
+                        <div> Inicio </div>
+                    </a>
+                </li>
+                <!-- List Item | li -->
+                <li class="menuItem">
+                    <a href="./formacion.html">
+                        <div>Formación</div>
+                    </a>
+                </li>
+                <li class="menuItem">
+                    <a href="./proyectos.html">
+                        <div>Proyectos</div>
+                    </a>
+                </li>
+                <li class="menuItem">
+                    <a href="./contacto.html">
+                        <div>Contacto</div>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="contenido">
+        <center>
+            <h1> Contacto </h1>
+        </center>
+        <form action="confirmacion.html" method="get">
+            <br> Nombre: <input type="text" name="nombreUsuario" value="nombre" required="true">
+            <br> Asunto: <input type="text" name="asuntoMensaje" value="Asunto" required="true">
+            <br> Correo: <input type="email" name="correo" required="true">
+            <br> Mensaje: <br> <input type="text" name="mensajeUsuario" value="Ingrese aqui su mensaje" style="width: 350px; height:250px;" required="true">
+            <br> Seleccione pais:<select name="pais">
+              <option value="Peru">Perú</option>
+              <option value="Colombia">Colombia</option>
+              <option value="Brasil">Brasil</option>
+              <option value="Uruguay">Uruguay</option>
+           </select> inpu
+            <br>
+            <input type="radio" name="genero" value="Masculino"> Masculino <br>
+            <input type="radio" name="genero" value="Femenino"> Femenino
+
+            <br> fecha: <input type="date" name="fecha" id="">
+            <br> fecha y hora: <input type="datetime" name="fecha" id="">
+
+
+            <br> <input type="button" value="Button">
+            <br> <input type="submit" value="Submit">
+        </form>
+
+    </div>
+</body>
+
+</html>
