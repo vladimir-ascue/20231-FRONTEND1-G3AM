@@ -88,3 +88,23 @@
     box-shadow: 5px 5px 15px black;
     padding: 0.5%;
 }
+
+.inombre {
+    border: 0.5px solid blue;
+    background-color: cornsilk;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 5px;
+}
+
+.inombre:hover {
+    border: 2px solid blue;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

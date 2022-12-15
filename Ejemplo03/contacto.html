@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilosEjemplo3.css">
     <title>Contacto</title>
+    <style>
+
+    </style>
 </head>
 
 <body>
@@ -45,26 +48,35 @@
             <h1> Contacto </h1>
         </center>
         <form action="confirmacion.html" method="get">
-            <br> Nombre: <input type="text" name="nombreUsuario" value="nombre" required="true">
-            <br> Asunto: <input type="text" name="asuntoMensaje" value="Asunto" required="true">
-            <br> Correo: <input type="email" name="correo" required="true">
-            <br> Mensaje: <br> <input type="text" name="mensajeUsuario" value="Ingrese aqui su mensaje" style="width: 350px; height:250px;" required="true">
+            <br> Nombre: <input class="inombre" type="text" name="nombreUsuario" required="true">
+            <br> Asunto: <input type="text" name="asuntoMensaje" required="true">
+            <!-- <br> Correo: <input type="email" name="correo" required="true">
+
+            <br> Mensaje: <br> <input type="text" name="mensajeUsuario" required="true">
+
+            <br> Text área: <br><textarea rows="5" cols="100"> </textarea>
+
             <br> Seleccione pais:<select name="pais">
               <option value="Peru">Perú</option>
               <option value="Colombia">Colombia</option>
               <option value="Brasil">Brasil</option>
               <option value="Uruguay">Uruguay</option>
-           </select> inpu
+                </select> inpu
             <br>
             <input type="radio" name="genero" value="Masculino"> Masculino <br>
             <input type="radio" name="genero" value="Femenino"> Femenino
 
             <br> fecha: <input type="date" name="fecha" id="">
-            <br> fecha y hora: <input type="datetime" name="fecha" id="">
+            <br> fecha y hora: <input type="datetime">
 
+            <br> Constraseña: <input type="password">-->
 
-            <br> <input type="button" value="Button">
-            <br> <input type="submit" value="Submit">
+            <br> Seleccione archivo: <input type="file" name="archivoSeleccionado">
+
+            <br> <input type="button" value="Accion personalizada" onclick="">
+            <br> <input type="submit" value="Enviar datos del formulario">
+            <br> <input type="reset" value="Limpiar formulario">
+
         </form>
 
     </div>
