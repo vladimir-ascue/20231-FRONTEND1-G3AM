@@ -62,7 +62,11 @@
 }
 
 .contenido {
-    margin-top: 15px;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
     /* borde de el elemento: grosor tipo color */
     border: 1px solid black;
     /* curvatura del cada esquina : ESI ESD EID EII | uno para todos */
@@ -75,10 +79,11 @@
     /* Alto */
     height: 520px;
     /* Margen exterior  */
-    margin-left: 4%;
+    /*    margin-left: 4%;*/
     /* margin-top: 5px;
     margin-bottom: 15px;
-    margin-right: 5%; */
+    margin-right: 5%; 
+    */
     /* Margen interior */
     color: blue;
     /* Fondo con degradado de colores */
@@ -107,4 +112,52 @@
     padding-right: 15px;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+
+/*****  *****/
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: beige;
+    width: 150px;
+    height: 220px;
+    box-shadow: 10px 10px Silver;
+}
+
+.card:hover {
+    box-shadow: 5px 5px black;
+}
+
+.cardScale:hover {
+    transform: scale(1.5);
+}
+
+.cardTranslate:hover {
+    transform: translate(0px, 100px);
+}
+
+.cardRotate:hover {
+    transform: rotate(15deg);
+}
+
+.cardSkew:hover {
+    transform: skewX(25deg);
+}
+
+.cardContent {
+    border-bottom: 1px solid rgb(118, 118, 118);
+    border-top: 1px solid rgb(118, 118, 118);
+    height: 50px;
+    width: 100%;
+}
+
+.cardFooter {
+    border-bottom: 1px solid rgb(118, 118, 118);
+    border-top: 1px solid rgb(118, 118, 118);
+    height: 25px;
+    width: 100%;
 }
