@@ -64,9 +64,9 @@
 .contenido {
     display: flex;
     gap: 25px;
-    align-items: center;
-    align-content: center;
     margin: 0 auto;
+    align-items: center;
+    justify-content: center;
     /* borde de el elemento: grosor tipo color */
     border: 1px solid black;
     /* curvatura del cada esquina : ESI ESD EID EII | uno para todos */
@@ -157,4 +157,30 @@
     border-top: 1px solid rgb(118, 118, 118);
     height: 25px;
     width: 100%;
+}
+
+.contenedor2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid blue;
+    width: 900px;
+    height: auto;
+    padding: 10px;
+}
+
+.elemento {
+    border: 1px dotted brown;
+    background-color: darkgray;
+}
+
+.presBlock {
+    display: block;
+}
+
+.presInLine {
+    display: inline;
+}
+
+.presFlex {
+    display: flex;
 }
