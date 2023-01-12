@@ -64,7 +64,7 @@
 .contenido {
     display: flex;
     gap: 25px;
-    margin: 0 auto;
+    margin: 30px auto;
     align-items: center;
     justify-content: center;
     /* borde de el elemento: grosor tipo color */
@@ -171,6 +171,8 @@
 .elemento {
     border: 1px dotted brown;
     background-color: darkgray;
+    padding: 15px;
+    font-size: xx-large;
 }
 
 .presBlock {
@@ -183,4 +185,28 @@
 
 .presFlex {
     display: flex;
+    gap: 35px;
+    justify-content: center;
+}
+
+.menuitem {
+    border: none;
+    background-color: aquamarine;
+}
+
+.menuitem:hover {
+    background-color: rgba(10, 10, 10, 0.2);
+    color: aliceblue;
+    transform: scale(0.95);
+    cursor: pointer;
+}
+
+.ejemploDisplay {
+    background-color: aquamarine;
+    width: 89%;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 15px 15px 20px #ccc;
+    padding: 20px;
+    margin: 20px 75px;
 }
