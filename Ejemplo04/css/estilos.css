@@ -12,12 +12,15 @@
     backface-visibility: hidden;
     border-radius: 10px;
     overflow: hidden;
+    text-align: center;
+    padding: 15px;
     transition: .5s;
 }
 
 .card .front {
     transform: perspective(600px) rotate(0deg);
     box-shadow: 0 5px 10px black;
+    background-color: rgb(170, 201, 34);
 }
 
 .card:hover .front {
@@ -26,7 +29,7 @@
 
 .card .back {
     transform: perspective(600px) rotateY(180deg);
-    background-color: bisque;
+    background-color: rgb(149, 140, 163);
     padding: 15px;
     color: black;
     text-align: center;
