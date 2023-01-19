@@ -28,6 +28,7 @@
     gap: 20px;
 }
 
+
 /* .enlaces li {
     list-style: none;
 }*/
@@ -69,7 +70,6 @@
     flex-wrap: wrap;
     background-color: #ccc;
     /* flex-direction: row-reverse; */
-
     /* borde de el elemento: grosor tipo color */
     border: 1px solid black;
     /* curvatura del cada esquina : ESI ESD EID EII | uno para todos */
@@ -129,6 +129,7 @@
     box-shadow: 10px 10px 10px #ccc;
 }
 
+
 /*.c1{
     order: 3;
     !*flex-grow: 5;*!
@@ -173,7 +174,6 @@
     border-bottom: 1px solid rgb(118, 118, 118);
     border-top: 1px solid rgb(118, 118, 118);
     background-color: #CCC;
-
     height: 50px;
     width: 100%;
 }
@@ -254,14 +254,13 @@
     margin: 20px 75px;
 }
 
-@media screen and (max-width: 900px){
-    .contenido{
+@media screen and (max-width: 900px) {
+    .contenido {
         width: 95%;
         height: 1000px;
         background-color: #cca;
     }
-
-    .card{
+    .card {
         border: .5px solid black;
         border-radius: 8px;
         background-color: beige;
@@ -270,10 +269,3 @@
         box-shadow: 8px 8px 7px #ccc;
     }
 }
-
-
-
-
-
-
-
