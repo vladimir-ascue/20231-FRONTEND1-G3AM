@@ -1,0 +1,50 @@
+.body{
+    text-align:center;
+    margin: 0 auto;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    width: 100%;
+    margin: 0 auto;
+    height: 600px;
+    background-color: antiquewhite;
+    text-align: center;
+    justify-content: center;
+}
+
+.menuItem{
+    width: 150px;
+    height: 50px;
+    background-color: greenyellow;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.menuItem:hover{
+    background-color: #ccccaa;
+    cursor: pointer;
+}
+
+.caja{
+    height: 80px;
+    border: 1px solid black;
+    margin: 10px;
+    color: blue;
+    background-color: chartreuse;
+}
+
+.c3{
+    width: 10px;
+    height: 10px;
+}
+
+.c2{
+    height: 15px;
+    border: none;
+}
+.c2:hover{
+    height: 100px;
+    transition: 0.3s;
+}
