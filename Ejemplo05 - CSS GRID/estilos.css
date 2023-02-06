@@ -11,7 +11,7 @@
     height: 600px;
     background-color: antiquewhite;
     text-align: center;
-    
+    gap: 50px;
 }
 
 .menuItem{
@@ -19,6 +19,14 @@
     background-color: greenyellow;
     text-align: center;
     padding-top: 15px;
+}
+
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    padding: 20px;
+    gap: 50px; /* Espacio entre los elementos del contenedor*/
 }
 
 .caja{
