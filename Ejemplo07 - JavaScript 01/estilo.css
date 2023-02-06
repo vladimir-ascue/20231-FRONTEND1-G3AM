@@ -3,3 +3,13 @@
     box-shadow: 2px 2px 8px;
     width: 120px;
 }
+
+.contenedor{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid black;
+    height: auto;
+    overflow: scroll;
+    padding: 20px;
+}

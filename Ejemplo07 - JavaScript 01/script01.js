@@ -33,7 +33,7 @@ function activar(){
     if (texto == "Mostrar"){
         mostrar();
     }else{
-        ocultar()
+        ocultar();
     }
 }
 
