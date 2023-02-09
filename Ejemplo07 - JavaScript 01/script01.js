@@ -39,7 +39,6 @@ function redimensionar(){
     let cab = document.getElementById("Cabecera");
 
     cab.style.setProperty("width","500px");
-
 }
 
 
