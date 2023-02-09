@@ -24,7 +24,6 @@ function ocultar(){
     document.getElementById("activador").innerText = "Mostrar";
     document.getElementById("menu").style.setProperty("transform", "scaleX(0)");
     document.getElementById("menu").style.setProperty("transition", ".3s");
-    document.ge
 }
 
 function activar(){
@@ -34,6 +33,13 @@ function activar(){
     }else{
         ocultar();
     }
+}
+
+function redimensionar(){
+    let cab = document.getElementById("Cabecera");
+
+    cab.style.setProperty("width","500px");
+
 }
 
 

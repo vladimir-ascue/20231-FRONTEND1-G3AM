@@ -13,3 +13,8 @@
     overflow: scroll;
     padding: 20px;
 }
+
+#Cabecera{
+    border: 1px solid blue;
+    background-color: chocolate;
+}
