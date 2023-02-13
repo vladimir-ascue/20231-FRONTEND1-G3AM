@@ -35,10 +35,26 @@ function activar(){
     }
 }
 
-function redimensionar(){
-    let cab = document.getElementById("Cabecera");
+function redimensionar( ef ){
+    // capturo el elemento
+    // cuadro.style.setProperty("width","100px");
+    // tomo una propiedad
+    // let w = cuadro.style.getPropertyValue("width");
 
-    cab.style.setProperty("width","500px");
+    if (ef == "RH"){
+        let cuadro = document.getElementById("cuadro1");
+        if (cuadro.style.getPropertyValue("width") == "50px"){
+            cuadro.style.setProperty("width","100px");
+            let w = cuadro.style.getPropertyValue("width");
+        }else{
+            cuadro.style.setProperty("width","50px");
+            let w = cuadro.style.getPropertyValue("width");
+        }
+    }
+    else{
+        let cuadro = document.getElementById("cuadro2");
+        cuadro.style.setProperty("height","100px");
+    }
 }
 
 

@@ -7,33 +7,53 @@
 </head>
 
 <body>
-    <script src="script01.js"></script>
-    <div class="contenedor">
-        <form>
-<!--            <label for="nombre" >Numero:</label>-->
-<!--            <input id="numero" type="text" name="numero" required> <br>-->
-            <strong>Etiquetas semanticas</strong>
-            <header id="Cabecera">
-                <nav>
-                    <p>Saludos</p>
-                </nav>
-            </header>
-            <main>
-                <aside>
+<script src="script01.js"></script>
 
-                </aside>
-            </main>
-                <article>
+    <header id="Cabecera">
+        <nav>
+            <p>Saludos</p>
+        </nav>
+    </header>
 
-                </article>
-            <footer>
+    <main>
+        <div class="contenedor">
+            <form>
+                <a class="vinculoForm" href="#" onclick="redimensionar('RH')"> Cuadro1: Redim Horizontal</a>
+                <a class="vinculoForm" href="#" onclick="redimensionar('RV')"> Cuadro2: Redim Vertical </a>
+                <a class="vinculoForm" href="#" onclick="redimensionar('TH')"> Cuadro3: Trasl Horizontal </a>
+                <a class="vinculoForm" href="#" onclick="redimensionar('TV')"> Cuadro4: Trasl Vertical</a>
+                <a class="vinculoForm" href="#" onclick="redimensionar('EHV')"> Cuadro5: Escala H y V</a>
 
-            </footer>
-            <br><br>            
-            <button name="button" value="Enviar" onclick="redimensionar()" >Redimensionar</button>
-        </form>
-    </div>
-    
+<!--                 <button name="button" value="Enviar" onclick="redimensionar()">Redimensionar</button> -->
+            </form>
+            <aside>
+                <div class="elementos">
+                    <div class="elem cuadro1" id="cuadro1" >
+
+                    </div>
+                    <div class="elem cuadro2" id="cuadro2" >
+
+                    </div>
+                    <div class="elem cuadro3" id="cuadro3" >
+
+                    </div>
+                    <div class="elem cuadro4" id="cuadro4" >
+
+                    </div>
+                    <div class="elem cuadro5" id="cuadro5" >
+
+                    </div>
+                </div>
+
+
+            </aside>
+            <article>
+                <p> parrafo dentro del Articulo </p>
+            </article>
+        </div>
+    </main>
+    <footer>
+        <p> parrafo dentro del pie de página </p>
+    </footer>
 </body>
-
 </html>
