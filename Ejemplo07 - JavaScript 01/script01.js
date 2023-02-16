@@ -14,53 +14,51 @@ for (let i = 0; i < 5; i++) {
 
 */
 
-function mostrar(){
+function mostrar() {
     document.getElementById("activador").innerText = "Ocultar";
     document.getElementById("menu").style.setProperty("transform", "scaleX(1)");
     document.getElementById("menu").style.setProperty("transition", ".3s");
 }
 
-function ocultar(){
+function ocultar() {
     document.getElementById("activador").innerText = "Mostrar";
     document.getElementById("menu").style.setProperty("transform", "scaleX(0)");
     document.getElementById("menu").style.setProperty("transition", ".3s");
 }
 
-function activar(){
+function activar() {
     var texto = document.getElementById("activador").innerText;
-    if (texto == "Mostrar"){
+    if (texto == "Mostrar") {
         mostrar();
-    }else{
+    } else {
         ocultar();
     }
 }
 
-function redimensionar( ef ){
+function redimensionar(ef) {
     // capturo el elemento
     // cuadro.style.setProperty("width","100px");
     // tomo una propiedad
     // let w = cuadro.style.getPropertyValue("width");
 
-    if (ef == "RH"){
+    if (ef == "RH") {
         let cuadro = document.getElementById("cuadro1");
-        if (cuadro.style.getPropertyValue("width") == "50px"){
-            cuadro.style.setProperty("width","100px");
-            let w = cuadro.style.getPropertyValue("width");
-        }else{
-            cuadro.style.setProperty("width","50px");
-            let w = cuadro.style.getPropertyValue("width");
+        if (cuadro.style.getPropertyValue("width") == "50px") {
+            cuadro.style.setProperty("width", "100px");
+        } else {
+            cuadro.style.setProperty("width", "50px");
         }
-    }
-    else{
-        let cuadro = document.getElementById("cuadro2");
-        cuadro.style.setProperty("height","100px");
+    } else {
+        if (ef == "RV") {
+            let cuadro = document.getElementById("cuadro2");
+            if (cuadro.style.getPropertyValue("height") == "50px") {
+                cuadro.style.setProperty("height", "100px");
+            } else {
+                cuadro.style.setProperty("height", "50px");
+            }
+        } else {
+
+        }
+
     }
 }
-
-
-
-
-
-
-
-
