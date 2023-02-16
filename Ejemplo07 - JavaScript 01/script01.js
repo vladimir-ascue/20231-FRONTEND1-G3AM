@@ -57,7 +57,43 @@ function redimensionar(ef) {
                 cuadro.style.setProperty("height", "50px");
             }
         } else {
+            if (ef == "TH") {
+                let cuadro = document.getElementById("cuadro3");
+                //get pos = cuadro.getBoundingClientRect();
+                if (cuadro.style.getPropertyValue("transform") == "translateX(0px)") {
+                    cuadro.style.setProperty("transform", "translateX(150px)");
+                } else {
+                    cuadro.style.setProperty("transform", "translateX(0px)");
+                }
+            } else {
+                if (ef == "TV") {
+                    let cuadro = document.getElementById("cuadro4");
+                    //get pos = cuadro.getBoundingClientRect();
+                    if (cuadro.style.getPropertyValue("transform") == "translateY(0px)") {
+                        cuadro.style.setProperty("transform", "translateY(30px)");
+                    } else {
+                        cuadro.style.setProperty("transform", "translateY(0px)");
+                    }
+                } else {
+                    if (ef == "EHV") {
+                        let cuadro = document.getElementById("cuadro5");
+                        let pos = cuadro.getBoundingClientRect();
+                        console.log("right: " + pos.right);
+                        console.log("left: " + pos.left);
+                        console.log("top: " + pos.top);
+                        console.log("bottom: " + pos.bottom);
+                        console.log("height: " + pos.height);
+                        console.log("widht: " + pos.width);
+                        if (cuadro.style.getPropertyValue("transform") == "scale(1)") {
+                            cuadro.style.setProperty("transform", "scale(2)");
+                        } else {
+                            cuadro.style.setProperty("transform", "scale(1)");
+                        }
+                    } else {
 
+                    }
+                }
+            }
         }
 
     }
