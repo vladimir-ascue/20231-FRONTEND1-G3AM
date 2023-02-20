@@ -11,7 +11,6 @@ for (let i = 0; i < 5; i++) {
             "</div>"+
         "</div>");
 }
-
 */
 
 function mostrar() {
@@ -95,6 +94,5 @@ function redimensionar(ef) {
                 }
             }
         }
-
     }
 }

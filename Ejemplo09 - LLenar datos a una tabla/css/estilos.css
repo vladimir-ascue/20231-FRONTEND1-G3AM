@@ -1,0 +1,11 @@
+#tablaDatos{
+    margin: 50px;
+    background-color: #e9ecef;
+    width: 80%;
+}
+
+#tablaDatos tr:hover{
+    background-color: #005cbf;
+    color: greenyellow;
+    cursor: pointer;
+}
