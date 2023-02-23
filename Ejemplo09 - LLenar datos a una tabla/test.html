@@ -1,0 +1,39 @@
+<table id="tableData">
+  <tr>
+    <th>Nombre</th>
+    <th>Apellidos</th>
+    <th>correo</th>
+  </tr>
+  <tr>
+    <td>Juan</td>
+    <td>Pérez</td>
+    <td>juan.perez@email.com</td>
+  </tr>
+  <!-- más filas -->
+</table>
+
+<form id="formData">
+  <label for="nombre">Nombre:</label>
+  <input type="text" id="nombre" name="nombre">
+
+  <label for="apellidos">Apellidos:</label>
+  <input type="text" id="apellidos" name="apellidos">
+
+  <label for="email">correo:</label>
+  <input type="email" id="email" name="email">
+</form>
+
+<script>
+  const table = document.querySelector("#tableData");
+  table.addEventListener("click", (event) => {
+    if (event.target.tagName === "TD") {
+      const row = event.target.parentElement;
+      const name = row.cells[0].textContent;
+      const lastName = row.cells[1].textContent;
+      const email = row.cells[2].textContent;
+      document.querySelector("#nombre").value = name;
+      document.querySelector("#apellidos").value = lastName;
+      document.querySelector("#email").value = email;
+    }
+  });
+</script>
